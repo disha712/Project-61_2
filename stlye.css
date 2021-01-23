@@ -1,0 +1,62 @@
+#image1 {
+    width: 100;
+    border-radius: 50%;
+    height: 100px;
+}
+
+body {
+    text-align: center;
+    background-color: linear-gradient(#dffc03 0%, #03fc4a 100%);
+    backround-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px. right:30px;
+    cursor: pointer;
+    color: black;
+}
+#myname {
+    font-family: 'Hanalei Fill', cursive;
+}
+#image2{
+  height:200px;
+  width:400px;
+}
+#image3{
+  height:200px;
+  width:400px;
+}
+#image4{
+   height:200px;
+  width:400px;
+}
+#image5{
+   height:200px;
+  width:400px;
+}
+html{
+  scroll-behavior:smooth;
+}
+#picture{
+transition:transform .2s;
+border:10px solid #AAAAAA;
+  height:350px;
+  width:300px;
+}
+img:hover {
+  transform: scale(0.9);
+}
